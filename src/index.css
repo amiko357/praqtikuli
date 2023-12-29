@@ -1,0 +1,25 @@
+.navigation{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.navigation a{
+  font-size: 1rem; 
+  color: #000;
+  text-decoration: none;
+}
+
+.card-list{
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-list .card{
+  width: 100%;
+}
+
+.card-list .card img{
+  width: 100%;
+}
